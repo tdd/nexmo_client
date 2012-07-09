@@ -1,0 +1,15 @@
+- Delivery Report processing method, based on params hash
+  -> Test!
+- YARD doc
+- Tests & mockups (Test::Unit + Mocha?)
+  ::send OK (single message)
+  ::send OK (multiple messages)
+  ::send KO
+  ::DeliveryReport OK
+  ::DeliveryReport KO
+  ::InboundMessage
+- Expanded send: WAP push + tests
+- Account management: balance, pricing, settings + tests
+- Number management: acct numbers, search, buy, cancel, update + tests
+- Search: message(s), rejections + tests
+- Executable wrapper script: send (text/binary/wap), get balance/pricing, settings, number management, message/rej search (+ tests)
